@@ -32,7 +32,7 @@ public class StudentGrades {
 
             switch (choice) {
                 case 1:
-                    // Sort the array using Arrays.sort()
+                   
                     Arrays.sort(grades);
                     System.out.println("Sorted grades: " + Arrays.toString(grades));
                     break;
@@ -47,7 +47,7 @@ public class StudentGrades {
                     break;
 
                 case 3:
-                    // Find min and max
+                   
                     double min = grades[0];
                     double max = grades[0];
                     for (double grade : grades) {
