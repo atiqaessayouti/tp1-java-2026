@@ -16,7 +16,7 @@ public class StringOperations {
             System.out.println("5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -61,3 +61,4 @@ public class StringOperations {
         scanner.close();
     }
 }
+
