@@ -26,7 +26,7 @@ public class StudentGrades {
             System.out.println("2. Display average grade");
             System.out.println("3. Display highest and lowest grades");
             System.out.println("4. Count students with a specific grade");
-            System.out.println("5. Exit");
+            System.out.println("5. EXxit");
             System.out.print("Your choice: ");
             int choice = scanner.nextInt();
 
